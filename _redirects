@@ -1,0 +1,9 @@
+# Surge.sh redirects file
+# Redirect HTTP to HTTPS
+http://* https://:splat 301
+
+# Redirect www to non-www (optional)
+https://www.:splat https://:splat 301
+
+# Redirect non-www to www (optional - uncomment if needed)
+# https://:splat https://www.:splat 301
